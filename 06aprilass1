@@ -1,0 +1,16 @@
+I={1:['ch jyothi','IPS','1may2023',55000,'vskp'],2:['R.gayathri','Teacher','40000,'chennai'],3:['Veda','lawyer','21april2022',65000,'Hyderabad']}
+n=int(input('Enter the number:'))
+print('Employee name :',I[n][0])
+print('Employee designation:',I[n][1])
+print('D.O.J :',I[n][2])
+print('Employee Salary:',I[n][3])
+print('City:',I[n][4])
+
+
+output:
+Enter the number:3
+Employee name :Veda 
+Employee designation:lawyer
+D.O.J:21april2022
+Employee Salary:65000
+City:Hyderabad
